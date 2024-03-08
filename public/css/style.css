@@ -75,3 +75,31 @@ body {
     text-align: center;
   }
 }
+
+/* Search */
+.search {
+  margin-top: -50px;
+}
+
+.search .search__card {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+.search .search__card .search__time .form-select {
+  background-image: url("../images/fi_clock.png");
+  background-size: 20px auto;
+}
+
+.search .search__card .form-select:hover {
+  border: 1px solid #5cb85f;
+  border-radius: 2px;
+}
+
+.search .search__card .form-select option:hover,
+.search .search__card .form-select option:checked {
+  background: #c9e7ca;
+  color: #5cb85f;
+}
