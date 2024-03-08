@@ -1,0 +1,77 @@
+body {
+  font-family: Helvetica;
+}
+
+/* Navbar */
+.btn-register {
+  background-color: #5cb85f;
+  color: #ffff;
+  border-radius: 5px;
+}
+.btn-register:hover {
+  background-color: white;
+  color: #232323;
+}
+/* Home */
+#home {
+  background-color: #f1f3ff;
+}
+
+.btn-utama {
+  background-color: #5cb85f;
+  color: #ffff;
+  border-radius: 5px;
+}
+
+.btn-utama:hover {
+  color: #5cb85f;
+  background-color: #ffffff;
+  border: 1px solid #5cb85f;
+}
+
+/* Why Us */
+@media screen and (max-width: 576px) {
+  .why_us {
+    text-align: center;
+  }
+}
+
+/* Testimoni */
+@media (max-width: 576px) {
+  .container-testimoni {
+    margin: 0% !important;
+    padding: 0% !important;
+  }
+  .testimoni {
+    flex-direction: column;
+    text-align: center;
+  }
+  .profile {
+    margin: 0% !important;
+  }
+  .review {
+    margin: 0% !important;
+  }
+}
+
+.carousel {
+  background: #f3f1ff;
+  width: 832px;
+  height: 270px;
+  margin: auto;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("../images/Vector-kiri.svg");
+}
+
+.carousel-control-next-icon {
+  background-image: url("../images/Vector-kanan.svg");
+}
+
+/* Faq */
+@media screen and (max-width: 576px) {
+  .faq {
+    text-align: center;
+  }
+}
