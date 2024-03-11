@@ -41,12 +41,43 @@ class Car {
 
   render() {
     return `
-      <p>id: <b>${this.id}</b></p>
-      <p>plate: <b>${this.plate}</b></p>
-      <p>manufacture: <b>${this.manufacture}</b></p>
-      <p>model: <b>${this.model}</b></p>
-      <p>available at: <b>${this.availableAt}</b></p>
-      <img src="${this.image}" alt="${this.manufacture}" width="64px">
+
+        <div class="card px-2 py-4">
+            <img src="${this.image}" class="card-img-top mt-4">
+            <div class="card-body">
+                <h5 class="card-title fs-6">${this.manufacture}/${this.model}</h5>
+                <h5 class="card-title fs-5 fw-bold">Rp ${this.rentPerDay} / hari</h5>
+                <p class="cars__p">${this.description}</p>
+                <div class="row">
+                    <div class="col-1">
+                        <img src="images/fi_users1.png" width="20px" alt="" srcset="">
+                    </div>
+                    <div class="col-10 ms-lg-2">
+                        ${this.capacity} orang
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-1">
+                        <img src="images/fi_settings.png" width="20px" alt="" srcset="">
+                    </div>
+                    <div class="col-10 ms-lg-2">
+                        ${this.transmission}
+                    </div>
+                </div>
+                <div class="row mt-2 mb-4">
+                    <div class="col-1">
+                        <img src="images/fi_calendar.png" width="20px" alt="" srcset="">
+                    </div>
+                    <div class="col-10 ms-lg-2">
+                        Tahun ${this.year}
+                    </div>
+                </div>
+
+                <a href="#" class="btn btn-utama" style="width:100%">Go somewhere</a>
+            </div>
+        </div>
+
+      
     `;
   }
 }

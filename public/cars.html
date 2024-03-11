@@ -86,13 +86,13 @@
         </div>
       </div>
     </section>
-
-    <!-- Search -->
-    <section class="search">
+     
+   <!-- Search -->
+    <section class="search-car">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 col-12">
-            <div class="row search__card mx-lg-5 py-3 px-4">
+            <div class="row search-card mx-lg-5 py-3 px-4">
               <div class="col-lg-auto col-xl-2 col-xxl-3 col-md-auto">
                 <label>Tipe Driver</label>
                 <select
@@ -101,7 +101,7 @@
                   id="tipeDriver"
                 >
                   <option value="default" selected>
-                    Pilih Tipe Driver &nbsp; &nbsp; &nbsp; &nbsp;
+                    Pilih Tipe Driver 
                   </option>
                   <option value="true">Dengan Supir</option>
                   <option value="false">Tanpa Supir (Lepas Kunci)</option>
@@ -116,7 +116,7 @@
                   id="tanggal"
                 />
               </div>
-              <div class="col-lg-auto col-xl-auto col-md-auto search__time">
+              <div class="col-lg-auto col-xl-auto col-md-auto search-time">
                 <labe>Pilih Waktu</labe>
                 <select
                   class="form-select"
@@ -124,7 +124,7 @@
                   id="waktuJemput"
                 >
                   <option value="false" selected>
-                    Pilih Waktu &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    Pilih Waktu 
                   </option>
                   <option value="08:00">08.00 WIB</option>
                   <option value="09:00">09.00 WIB</option>
@@ -156,6 +156,20 @@
         </div>
       </div>
     </section>
+
+    <!-- List Cars -->
+    <section class="cars">
+      <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-lg-11 ">
+                  <div class="row" id="cars-container">
+
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+  </section>
 
     <!-- Footer -->
     <section id="footer">
@@ -216,5 +230,12 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    
+
+     <!-- Example Javascript -->
+     <script type="text/javascript" src="scripts/binar.js"></script>
+     <script type="text/javascript" src="scripts/app.example.js"></script>
+     <script type="text/javascript" src="scripts/car.example.js"></script>
+     <script type="text/javascript" src="scripts/main.example.js"></script>
   </body>
 </html>
